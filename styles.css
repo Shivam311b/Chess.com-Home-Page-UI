@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #312e2b;
+}
+
+.container {
+    display: flex;
+}
+
+.left-container {
+    background-color: #292623;
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+}
+
+#logo-pc img {
+    width: 117px;
+    margin: 5px auto 10px 9px;
+    cursor: pointer;
+}
+
+#logo-pc:hover {
+    background-color: #211f1c;
+}
+
+.anchor-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 8px 9px;
+    gap: 7px;
+    height: 40px;
+}
+
+.anchor-container:hover {
+    background-color: #211f1c;
+    cursor: pointer;
+}
+
+.anchor-container img{
+    width: 24px;
+}
+
+.anchor-container span {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+input {
+    color: gray;
+    background-color: #312e2b;
+    margin: 7px auto 10px 9px;
+    width: 123px;
+    height: 30px;
+    border-radius: 6px;
+    padding: 0 0 0 10px;
+    border: 2px solid #312e2b;
+}
+
+#sign-up button {
+    background-color: #312e2b;
+    color: white;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    margin: 7px auto 10px 9px;
+    width: 137px;
+    height: 35px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#sign-up button:hover {
+    background-color: #3b3835;
+}
+
+#login button {
+    background-color: #81b64c;
+    color: white;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    margin: 7px auto 10px 9px;
+    width: 137px;
+    height: 35px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#login button:hover {
+    background-color: #8fc258;
+}
+
+#language {
+    margin: 87px auto 0 9px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    height: 30px;
+}
+
+#language:hover {
+    background-color: #211f1c;
+    cursor: pointer;
+}
+
+#language img {
+    width: 20px;
+}
+
+#help {
+    margin: 0 auto 10px 9px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    height: 30px;
+}
+
+#help:hover {
+    background-color: #211f1c;
+    cursor: pointer;
+}
+
+#help img {
+    width: 20px;
+}
+
+/* Right Container */
+
+.right-container {
+    margin: 50px 100px 0 300px;
+    overflow-y: auto;
+}
+
+.chessboard img {
+    width: 430px;
+    cursor: pointer;
+}
+
+#first-header {
+    display: flex;
+    gap: 120px;
+}
+
+.chessboard-description {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.chessboard-description span {
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+}
+
+.player-desc {
+    display: flex;
+    margin-top: 10px;
+    color: white;
+    gap: 55px;
+}
+
+.player-desc span {
+    font-size: 14px;
+    color: gray;
+}
+
+button {
+    display: flex;
+    width: 420px;
+    background-color: #81b64c;
+    margin-top: 20px;
+    height: 95px;
+    padding: 20px 50px 20px 30px;
+    gap: 45px;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8fc258;
+}
+
+.btn-image img {
+    width: 66px;
+}
+
+.btn-desc h1 {
+    font-family: 'Roboto';
+    text-align: left;
+    color: white;
+}
+
+.btn-desc span {
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 4px;
+    color: white;
+}
+
+#computer-btn {
+    background-color: #292623;
+}
+
+#computer-btn:hover {
+    background-color: #312e2b;
+}
+
+/* Second Header */
+
+#second-header {
+    background-color: #292623;
+    margin: 50px auto;
+    display: flex;
+    border-radius: 6px;
+    gap: 110px;
+}
+
+.puzzle-desc {
+    margin-left: 50px;
+}
+
+.puzzle-heading {
+    text-align: center;
+}
+
+.puzzle-heading h1 {
+    font-weight: 800;
+    color: white;
+    font-family: 'Roboto';
+    margin-top: 50px;
+    margin-bottom: 40px;
+} 
+
+.puzzle-btn button {
+    justify-content: center;
+    margin-left: 110px;
+    margin-bottom: 60px;
+    width: 200px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 0;
+    color: white;
+}
+
+.puzzle img {
+    width: 350px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+#hikaru-img img {
+    width: 130px;
+    border-radius: 6px;
+}
+
+.hikaru-quote {
+    display: flex;
+    gap: 35px;
+}
+
+#hikaru-lines p {
+    color: #ffffffb8;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#hikaru-lines span {
+    font-weight: 900;
+    background-color: #7c2929;
+}
+
+/* Third Header */
+
+#third-header {
+    background-color: #292623;
+    margin: 50px auto;
+    display: flex;
+    border-radius: 6px;
+    gap: 110px;
+}
+
+#puzzles img {
+    width: 350px;
+    margin: 30px 0 30px 30px;
+    cursor: pointer;
+}
+
+#anna-img img {
+    width: 130px;
+    border-radius: 6px;
+}
+
+.anna-quote {
+    display: flex;
+    gap: 35px;
+}
+
+#anna-lines p {
+    color: #ffffffb8;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#anna-lines span {
+    font-weight: 900;
+    background-color: #7c2929;
+}
+
+/* Fourth Header */
+
+.header h1 {
+    text-align: center;
+    color: white;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.grid-img:hover {
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid-des {
+    text-align: center;
+}
+
+.grid-des h3 {
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.grid-des h4 {
+    color: #ffffffb8;
+}
+
+.grid-des span {
+    font-weight: 900;
+    background-color: #7c2929;
+    margin-right: 8px;
+}
+
+/* Button below Header */
+
+.btn-below-header button{
+    width: 200px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 0;
+    color: white;
+    justify-content: center;
+    margin: 25px auto 45px auto;
+}
+
+/* Footer */
+
+footer {
+    font-size: 12px;
+    color: #ffffffb8;
+    text-align: center;
+    cursor: pointer;
+}
